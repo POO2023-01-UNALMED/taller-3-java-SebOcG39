@@ -9,7 +9,7 @@ public class Control{
 		return this.tv;
 	}
 	public void enlazar(TV tele) {
-		setTV(tele);
+		this.setTV(tele);
 		tele.setControl(this);
 	}
 	public void turnOn() {

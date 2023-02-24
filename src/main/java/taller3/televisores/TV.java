@@ -42,6 +42,9 @@ public class TV{
 	public void setCanal(int can) {
 		this.canal = can;
 	}
+	public void setNumTV(int num) {
+		numTV = num;
+	}
 	public int getNumTV() {
 		return TV.numTV;
 	}
