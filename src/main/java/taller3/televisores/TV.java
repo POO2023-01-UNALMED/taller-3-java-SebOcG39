@@ -11,6 +11,7 @@ public class TV{
 	public TV(Marca mar, boolean est ) {
 		this.marca = mar;
 		this.estado = est;
+		numTV++;
 	}
 	public Marca getMarca() {
 		return this.marca;
