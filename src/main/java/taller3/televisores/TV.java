@@ -43,11 +43,11 @@ public class TV{
 	public void setCanal(int can) {
 		this.canal = can;
 	}
-	public void setNumTV(int num) {
+	static public void setNumTV(int num) {
 		numTV = num;
 	}
-	public int getNumTV() {
-		return TV.numTV;
+	static public int getNumTV() {
+		return numTV;
 	}
 	public void turnOn() {
 		if (this.estado != true) {
