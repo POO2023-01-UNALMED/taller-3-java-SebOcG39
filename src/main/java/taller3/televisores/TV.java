@@ -35,13 +35,17 @@ public class TV{
 		return this.volumen;
 	}
 	public void setVolumen(int vol) {
-		this.volumen = vol;
+		if (vol <= 7 && vol >= 1) {
+			this.volumen = vol;
+		}
 	}
 	public int getCanal() {
 		return this.canal;
 	}
 	public void setCanal(int can) {
-		this.canal = can;
+		if (can <= 120 && can >= 1){
+			this.canal = can;
+		}
 	}
 	static public void setNumTV(int num) {
 		numTV = num;
